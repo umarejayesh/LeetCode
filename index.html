@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button with Google Docs Link</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        .button-container {
+            text-align: center;
+        }
+
+        .link-button {
+            display: inline-block; /* Make it behave like a block but inline for easy centering */
+            padding: 15px 30px;
+            font-size: 1.2em;
+            background-color: #28a745; /* Green color for a link */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none; /* Remove default link underline */
+            transition: background-color 0.3s ease;
+        }
+
+        .link-button:hover {
+            background-color: #1e7e34;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <a href="https://docs.google.com/document/d/1Tdb3aTE60p-MWI0644rVYlM47qsAgCCO9TONNvyg1UU/edit?usp=sharing" class="link-button" target="_blank">
+            Open Google Doc
+        </a>
+    </div>
+</body>
+</html>
